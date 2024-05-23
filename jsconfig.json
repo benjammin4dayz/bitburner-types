@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["types"],
+    "types": ["global", "NetscriptDefinitions"]
+  },
+  "include": ["index.js", "src/**/*"]
+}

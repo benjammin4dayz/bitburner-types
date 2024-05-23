@@ -1,0 +1,19 @@
+{
+  "name": "bitburner-types",
+  "description": "Simply enable IntelliSense for the NS namespace from Bitburner using JSDoc",
+  "private": true,
+  "version": "0.1.0",
+  "bin": {
+    "update": "npm run update"
+  },
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "scripts": {
+    "postinstall": "npm run update",
+    "prepack": "npm run update",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "node updateDefs.js"
+  },
+  "author": "benjammin4dayz",
+  "license": "MIT"
+}
